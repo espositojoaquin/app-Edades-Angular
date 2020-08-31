@@ -19,8 +19,8 @@ export class EdadesComponent implements OnInit {
   {
       this.edad = null;
       this.edad2 = null;
-      document.getElementById('suma').hidden=true;
-      document.getElementById('promedio').hidden=true;
+      document.getElementById('resultado').hidden=true;
+
   }
 
     calcular()
@@ -28,8 +28,8 @@ export class EdadesComponent implements OnInit {
       this.suma = this.edad + this.edad2;
       this.promedio = this.suma/2;
 
-      document.getElementById('suma').hidden=false;
-      document.getElementById('promedio').hidden=false;
+
+      document.getElementById('resultado').hidden=false;
 
     }
   ngOnInit(): void {

@@ -10,16 +10,37 @@ color: red;
 label{
   margin:0.5rem
 }
+#general{
+justify-content: center;
+display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+}
 #padre{
   background-color: green;
   display: flex;
-  flex-direction:column; /* filas*/
+  background-position: center;
+  flex-direction:column;
   flex-wrap: wrap;
   height: 19rem;
   width: 25rem;
   justify-content: center;
-   align-content: center;
+  align-content: center;
   border-radius: 5%;
+}
+.resultado{
+  padding-top: 1.8rem;
+  display: flex;
+  background-position: center;
+  flex-direction:column;
+  flex-wrap: wrap;
+  color:white;
+  align-content: center;
+  margin: 2rem;
+  border-radius: 5%;
+  width: 15rem;
+  height: 10rem;
+  background-color: royalblue;
 }
 input,button{
   margin-bottom: 1rem;
